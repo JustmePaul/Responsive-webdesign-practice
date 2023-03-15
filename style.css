@@ -59,6 +59,10 @@ table {
 }
 /* ==== BASE STYLES ==== */
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Playfair Display', 'Times New Roman', serif;
 	font-size: 1.125rem;
@@ -83,4 +87,10 @@ h2 {
 }
 .picture {
 	width: 100%;
+}
+/* ==== LAYOUT STYLES ==== */
+
+.main-header {
+	text-align: center;
+	padding: 1.25rem;
 }
